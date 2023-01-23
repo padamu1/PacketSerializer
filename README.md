@@ -17,6 +17,8 @@ dictionary<byte, object>
 
 ### How To Use
 
+#### Copy & Paste Serializer.cs to your project
+
 ```
 byte[] serializedData = Serializer.Serialize(    " Your Own Data "   );
 
