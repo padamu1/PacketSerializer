@@ -18,12 +18,11 @@ dictionary<byte, object>
 ### How To Use
 
 #### - Copy & Paste Serializer.cs to your project
+#### - Add code "using PacketSerializer"
 #### - Write and use the code below
 
 ```
 byte[] serializedData = Serializer.Serialize(    " Your Own Data "   );
-
 object deserializedData = Serializer.Deserialize(serializedData);
-
 ```
 
